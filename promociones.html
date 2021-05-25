@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Posada Paraíso</title>
+    <link rel="preload" href="Normalize.css" as="style">
+    <link rel="stylesheet" href="Normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="preload" href="Styles.css" as="style">
+    <link href="Styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Hotel Posada Paraíso</h1>
+    </header>
+
+    <div class="nav-bg">
+
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html"> Inicio </a>
+            <a href="habitaciones.html"> Reservar </a>
+            <a href="promociones.html"> Promociones </a>
+            <a href="sesion.html"> Iniciar sesión </a>
+            <a href="nosotros.html"> Nosotros </a>
+            <a href="referencias.html">Conocerte</a>      
+        </nav>
+
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>"Encontraste lo que andabas buscando"</h2>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg>
+                Kantunilkin, Quintana Roo</p>
+            <a class="boton" href="#">Contactar</a>
+        </div>
+
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>¿Deseas una promoción?</h2>
+        <h3>Si tienes un cupón de descuento ingresalo aquí</h3>
+        <center>
+            <form action="">
+                <div>
+                    <label for="mensaje">Ingresa los dígitos de tu cupón</label><br>
+                    <textarea id="mensaje" cols="50" rows="2"></textarea>
+                </div>
+                <div>
+                    <input class="boton" type="button" value="Contar números" onclick="leeTexto()">
+                </div>
+                <div>
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </center>
+        <script src="acciones.js"></script>
+
+    </main>
+
+    <footer class="footer">
+        <p>Este es una idea de pre-diseño de nuestro proyecto integrador Kotler 6B</p>
+    </footer>
+</body>
+</html>
